@@ -1,28 +1,28 @@
 {
-	"name": "react-i18next-app",
-	"version": "1.0.0",
-	"description": "This application illustrates a basic implementation of i18n (internationalization) in a React project using i18next and react-i18next.",
-	"author": "André Rosa <andreros@gmail.com>",
-	"scripts": {
-		"build": "rsbuild build",
-		"dev": "rsbuild dev --open",
-		"lint": "biome check --diagnostic-level=warn",
-		"lint:fix": "biome check --write . --diagnostic-level=warn",
-		"nuke": "rm -rf pnpm-lock.json && npm cache clean --force && pnpm i",
-		"preview": "rsbuild preview"
-	},
-	"dependencies": {
-		"i18next": "24.2.2",
-		"react-dom": "19.0.0",
-		"react-i18next": "15.4.1",
-		"react": "19.0.0"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.9.4",
-		"@rsbuild/core": "1.2.18",
-		"@rsbuild/plugin-react": "1.1.1",
-		"@types/react": "19.0.10",
-		"@types/react-dom": "19.0.4",
-		"typescript": "5.8.2"
-	}
+  "name": "react-i18next-app",
+  "version": "1.0.0",
+  "description": "This application illustrates a basic implementation of i18n (internationalization) in a React project using i18next and react-i18next.",
+  "author": "André Rosa <andreros@gmail.com>",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "lint": "biome check --diagnostic-level=warn",
+    "lint:fix": "biome check --write . --diagnostic-level=warn",
+    "nuke": "rm -rf pnpm-lock.json && npm cache clean --force && pnpm i",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "i18next": "24.2.2",
+    "react-dom": "19.0.0",
+    "react-i18next": "15.4.1",
+    "react": "19.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@rsbuild/core": "1.2.18",
+    "@rsbuild/plugin-react": "1.1.1",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "typescript": "5.8.2"
+  }
 }
